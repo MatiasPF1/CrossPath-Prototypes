@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrossPath - Student Connection Platform</title>
+    <link rel="stylesheet" href="intro-screen.css">
+</head>
+<body>
+    <div class="container">
+        <video class="container-video" autoplay loop muted playsinline>
+            <source src="Minimalist Beautiful Life Quotes Video.mp4" type="video/mp4">
+        </video>
+        <div class="header">
+            <h1 class="app-name">CrossPath</h1>
+            <p class="subtitle">Date. Study. Connect.<br> Made by students, for students.
+                <br></p>
+        </div>
+
+
+        <div class="cta-section">
+            <button class="btn btn-primary" onclick="handleSignUp()">Create Account</button>
+            <button class="btn btn-secondary" onclick="handleSignIn()">Sign In</button>
+            
+            <div class="footer">
+                <div class="footer-text">
+                    By continuing, you agree to our <a href="#">Terms of Service</a><br>
+                    and <a href="#">Privacy Policy</a>
+                </div>
+                <div class="creators">
+                    Created by Matias (Stevens Tech) & Sonia (Columbia)
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function handleSignUp() {
+            alert('Sign Up flow - This will navigate to registration screen');
+            // In React Native: navigation.navigate('SignUp')
+        }
+
+        function handleSignIn() {
+            alert('Sign In flow - This will navigate to login screen');
+            // In React Native: navigation.navigate('SignIn')
+        }
+    </script>
+</body>
+</html>
